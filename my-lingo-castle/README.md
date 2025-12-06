@@ -83,7 +83,7 @@ src/
 
 
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 This project uses a modern, performance-focused stack:
 
@@ -101,9 +101,9 @@ This project uses a modern, performance-focused stack:
 ---
 
 
-🚀 Getting Started
+## 🚀 Getting Started
 
-To run this project locally, please follow these steps:
+To run this project locally, follow these steps:
 
 Clone the repository
 
@@ -150,7 +150,7 @@ Open http://localhost:3000 to start the adventure.
 ---
 
 
-🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome! If you'd like to add new languages, create new questions for your desired language, or design dungeon rooms:
 
@@ -168,5 +168,12 @@ Contributions are welcome! If you'd like to add new languages, create new questi
 ---
 
 
-📄 License
+## 📄 License
 Distributed under the MIT License. See LICENSE for more information.
+
+
+---
+
+
+## 🌟 Show your support
+Give a ⭐️ if you like this project!
