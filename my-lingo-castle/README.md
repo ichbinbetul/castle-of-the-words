@@ -11,6 +11,28 @@ Play the game directly in your browser:
 
 ---
 
+
+## 🌍 Language Availability Status
+
+Currently, the project is under active development. Below is the status of the playable language castles:
+
+| Language | Status |
+| :--- | :--- |
+| 🇬🇧 **English** | ✅ **Ready to Play** |
+| 🇩🇪 German | 🚧 *Coming Soon* |
+| 🇪🇸 Spanish | 🚧 *Coming Soon* |
+| 🇫🇷 French | 🚧 *Coming Soon* |
+| 🇷🇺 Russian | 🚧 *Coming Soon* |
+| 🇮🇹 Italian | 🚧 *Coming Soon* |
+| 🇨🇳 Chinese | 🚧 *Coming Soon* |
+| 🇯🇵 Japanese | 🚧 *Coming Soon* |
+| 🇧🇬 Bulgarian | 🚧 *Coming Soon* |
+| 🇵🇹 Portuguese | 🚧 *Coming Soon* |
+
+
+---
+
+
 ## 🎮 Gameplay Features
 
 * **Immersive 3D Exploration:** Walk through candle-lit hallways and dungeons rendered in real-time.
