@@ -1,17 +1,16 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next"; // Viewport'u buraya ekledik
 import { Cinzel, Inter } from "next/font/google";
 import "./globals.css";
-// YENİ EKLEDİĞİMİZ:
 import { AuthProvider } from "@/context/AuthContext";
 
-// Mevcut Cinzel (Normal) - Bunu silmedik, duruyor
+// Mevcut Cinzel (Normal)
 const cinzel = Cinzel({
   subsets: ["latin"],
   variable: "--font-cinzel",
   weight: ["400", "500", "600", "700"],
 });
 
-// Mevcut Inter - Bunu da silmedik
+// Mevcut Inter
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
@@ -21,6 +20,18 @@ export const metadata: Metadata = {
   title: "Castle of the Words",
   description: "A gothic language learning castle of words.",
 };
+
+// --- YENİ EKLENEN KISIM BAŞLANGIÇ ---
+// Bu kısım canlı sitedeki (Vercel) boyut bozulmasını engeller.
+// Localhost'taki görüntünü bozmaz, sadece mobilde ve farklı ekranlarda standart olmasını sağlar.
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1, // Oyun olduğu için zoom yapılmasını engeller
+  userScalable: false,
+  themeColor: "#000000",
+};
+// --- YENİ EKLENEN KISIM BİTİŞ ---
 
 export default function RootLayout({
   children,
