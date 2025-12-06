@@ -75,6 +75,9 @@ src/
 ├── tailwind.config.ts     # Tailwind CSS configuration
 └── tsconfig.json          # TypeScript configuration
 
+
+```
+
 🛠️ Tech Stack
 This project uses a modern, performance-focused stack:
 
@@ -93,18 +96,22 @@ To run this project locally, follow these steps:
 
 Clone the repository
 
-Bash
+```bash
 
 git clone [https://github.com/ichbinbetul/castle-of-the-words.git](https://github.com/ichbinbetul/castle-of-the-words.git)
 cd castle-of-the-words
+
+```
+
 Install dependencies
 
-Bash
-
+```bash
 npm install
+
+```
 Setup Environment Variables This project uses Firebase for authentication. You need to create a .env.local file in the root directory and add your Firebase configuration keys:
 
-Kod snippet'i
+```bash
 
 NEXT_PUBLIC_FIREBASE_API_KEY=YOUR_API_KEY_HERE
 NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=YOUR_PROJECT_ID.firebaseapp.com
@@ -112,27 +119,33 @@ NEXT_PUBLIC_FIREBASE_PROJECT_ID=YOUR_PROJECT_ID
 NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=YOUR_PROJECT_ID.firebasestorage.app
 NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=YOUR_SENDER_ID
 NEXT_PUBLIC_FIREBASE_APP_ID=YOUR_APP_ID
+
+```
+
 (Note: You can obtain these keys from your Firebase Console Project Settings.)
 
 Run the development server
 
-Bash
+```bash
 
 npm run dev
+
+```
+
 Open http://localhost:3000 to start the adventure.
 
 🤝 Contributing
 Contributions are welcome! If you'd like to add new languages, create new questions for your desired language, or design dungeon rooms:
 
-Fork the Project
+1. Fork the Project
 
-Create your Feature Branch (git checkout -b feature/NewPuzzle)
+2. Create your Feature Branch (git checkout -b feature/NewPuzzle)
 
-Commit your Changes (git commit -m 'Add French Language Support')
+3. Commit your Changes (git commit -m 'Add French Language Support')
 
-Push to the Branch (git push origin feature/NewPuzzle)
+4. Push to the Branch (git push origin feature/NewPuzzle)
 
-Open a Pull Request
+5. Open a Pull Request
 
 📄 License
 Distributed under the MIT License. See LICENSE for more information.
