@@ -53,6 +53,7 @@ Use the acquired key to free the trapped inhabitant (King, Queen, or Wizard) and
 
 ---
 
+
 ## 📂 Project Structure
 
 
@@ -78,21 +79,31 @@ src/
 
 ```
 
+---
+
+
+
 🛠️ Tech Stack
+
 This project uses a modern, performance-focused stack:
 
-Framework: Next.js 14 (App Router)
+* **Framework:** Next.js 14 (App Router)
 
-3D Engine: React Three Fiber (Three.js for React)
+* **3D Engine:** React Three Fiber (Three.js for React)
 
-Language: TypeScript (Strict type safety)
+* **Language:** TypeScript (Strict type safety)
 
-Styling: Tailwind CSS (For UI overlays and modals)
+* **Styling:** Tailwind CSS (For UI overlays and modals)
 
-Backend: Firebase (Authentication & Progress Saving)
+* **Backend:** Firebase (Authentication & Progress Saving)
+
+
+---
+
 
 🚀 Getting Started
-To run this project locally, follow these steps:
+
+To run this project locally, please follow these steps:
 
 Clone the repository
 
@@ -124,6 +135,7 @@ NEXT_PUBLIC_FIREBASE_APP_ID=YOUR_APP_ID
 
 (Note: You can obtain these keys from your Firebase Console Project Settings.)
 
+
 Run the development server
 
 ```bash
@@ -134,7 +146,12 @@ npm run dev
 
 Open http://localhost:3000 to start the adventure.
 
+
+---
+
+
 🤝 Contributing
+
 Contributions are welcome! If you'd like to add new languages, create new questions for your desired language, or design dungeon rooms:
 
 1. Fork the Project
@@ -146,6 +163,10 @@ Contributions are welcome! If you'd like to add new languages, create new questi
 4. Push to the Branch (git push origin feature/NewPuzzle)
 
 5. Open a Pull Request
+
+
+---
+
 
 📄 License
 Distributed under the MIT License. See LICENSE for more information.
