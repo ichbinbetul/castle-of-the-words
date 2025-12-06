@@ -2,9 +2,8 @@ import type { Config } from "tailwindcss";
 
 const config = {
   content: [
-    "./src/app/**/*.{ts,tsx,mdx}",
-    "./src/components/**/*.{ts,tsx,mdx}",
-    "./src/lib/**/*.{ts,tsx,mdx}",
+    // Sadece app/components değil, src içindeki her yere bak diyoruz:
+    "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
@@ -21,4 +20,3 @@ const config = {
 } satisfies Config;
 
 export default config;
-
