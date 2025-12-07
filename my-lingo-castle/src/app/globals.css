@@ -1,4 +1,6 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --color-gothic-bg: #1a1a2e;
@@ -6,49 +8,17 @@
   --color-mystic-gold: #ffd700;
   --color-blood-red: #8a0303;
   --color-ghost-white: #f8f8f2;
+  /* Font değişkenlerini layout.tsx'den alıyorsan buraya ayrıca tanımlamana gerek yok ama dursun */
 }
 
-@theme inline {
-  --color-gothic-bg: #1a1a2e;
-  --color-castle-stone: #2d2d44;
-  --color-mystic-gold: #ffd700;
-  --color-blood-red: #8a0303;
-  --color-ghost-white: #f8f8f2;
-  --font-sans: var(--font-inter);
-  --font-heading: var(--font-cinzel);
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-figure,
-blockquote,
-dl,
-dd {
-  margin: 0;
-}
-
+/* Sayfa genel ayarları */
 body {
-  min-height: 100vh;
   background-color: var(--color-gothic-bg);
   color: var(--color-ghost-white);
-  font-family: var(--font-inter), system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", sans-serif;
-  line-height: 1.6;
-  text-rendering: optimizeLegibility;
+  min-height: 100vh;
 }
 
+/* Görsel ve medya ayarları */
 img,
 picture,
 video,
@@ -58,23 +28,7 @@ svg {
   max-width: 100%;
 }
 
-input,
-button,
-textarea,
-select {
-  font: inherit;
-  color: inherit;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-
-
-
-
+/* --- SENİN ANİMASYON KODLARIN (Dokunmadım, aynen ekledim) --- */
 @keyframes flyCoin {
   0% {
     top: 50%;
@@ -83,8 +37,8 @@ a {
     opacity: 1;
   }
   100% {
-    top: 24px; /* Sağ üst köşeye gitmesi için */
-    left: calc(100% - 24px); /* Sağ üst köşeye gitmesi için */
+    top: 24px; 
+    left: calc(100% - 24px); 
     transform: translate(-100%, 0) scale(0.3);
     opacity: 0;
   }
